@@ -10,7 +10,7 @@ export default function MainRouter() {
   return (
     <div>
       <Routes>
-      <Route path="/home" element={<Home />}/>
+      <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
       <Route path="/project" element={<Project />}/>
       <Route path="/services" element={<Services />}/>

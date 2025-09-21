@@ -14,6 +14,8 @@ body{
     background-color: hsl(0, 0%, 25%);
     list-style-type: none;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 .HomeNav a{
     border : 1px solid black;
@@ -26,7 +28,11 @@ body{
     background-color: hsl(0, 0%, 9%);
 
 }
-.HomeNav li{
-    
-    float: left;
+
+.logo {
+  width: 20px;
+  height: 20px;
+  background-color: #b1f6ff;
+  transform: rotate(45deg);
+  margin-right: 10px;
 }

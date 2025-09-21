@@ -5,7 +5,9 @@ export default function Home() {
     <div>
       <h3 className="HomeHead">My portfolio</h3>
       <nav className= "HomeNav">
+        
         <ul>
+        <li><div className="logo"></div></li>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/education">Education</Link></li>

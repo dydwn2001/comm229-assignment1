@@ -1,21 +1,21 @@
-import { Link } from "react-router-dom";
+import { Link, UNSAFE_createClientRoutes } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div>
-      <h3 className="HomeHead">My portfolio</h3>
-      <nav className= "HomeNav">
-        
-        <ul>
-        <li><div className="logo"></div></li>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/education">Education</Link></li>
-        <li><Link to="/project">Project</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        </ul>
-      </nav>
+    
+      <div className="home-content">
+  <p className="welcome">Welcome Welcome Welcome </p>
+  <p className="subtext">Please have a sit 🪑</p>
+
+  <h3 className="mission-title">Mission Statement</h3>
+  <p className="mission-text">
+    I aim to continuously learn and grow as a developer, driven by the joy of learning and a desire to
+    create applications that genuinely help people in real life. My mission is to use technology as a
+    tool to contribute positively to society.
+  </p>
+      
+
+    
     </div>
   )
 }

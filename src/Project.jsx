@@ -2,7 +2,7 @@
 export default function Project() {
   return (
     <div>
-      <p>Project</p>
+      <p>🚧 Projects under construction. Grab a hard hat and check back soon! </p>
     </div>
   )
 }

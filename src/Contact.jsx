@@ -16,25 +16,25 @@ export default function Contact() {
   }
   return (
     
-    <div>
+    <div className="contact">
       <p>please leave your contact</p>
       <form onSubmit={(e)=>{handelSubmit(e)}}>
         <label>
-          Firstname: 
+          Firstname<br/> 
         <input type="text" 
         value={firstname}
         onChange={(e) => setFirstname(e.target.value)}
         required ></input>
         </label><br/>
           <label>
-          Lastname: 
+          Lastname<br/> 
         <input type="text" 
         value={lastname}
         onChange={(e) => setLastname(e.target.value)}
         required ></input>
         </label><br/>
         <label>
-          Email: 
+          Email<br/> 
         <input 
         type="email" 
         value={emailAdress} 
@@ -44,7 +44,7 @@ export default function Contact() {
       />
       </label><br/>
        <label>
-          Contact number: 
+          Contact number<br/>  
         <input 
         type="tel" 
         value={contactNumber} 
@@ -53,7 +53,7 @@ export default function Contact() {
         required
       /><br/>
        <label>
-          Message: 
+          Message<br/> 
         <textarea 
         value={message}
         onChange={(e) => setMessage(e.target.value)}

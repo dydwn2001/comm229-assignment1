@@ -13,9 +13,9 @@ export default function MainRouter() {
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
       <Route path="/project" element={<Project />}/>
+      <Route path="/education" element={<Education />}/>
       <Route path="/services" element={<Services />}/>
       <Route path="/contact" element={<Contact />}/>
-      <Route path="/education" element={<Education />}/>
     </Routes>
     </div>
   )

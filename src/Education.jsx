@@ -9,7 +9,7 @@ export default function Education() {
       <strong>Centennial College</strong><br />
       Diploma, Software Engineering Technician<br />
       Toronto, Canada<br />
-      Jan 2025 – Apr 2026 (Expected)
+      Jan 2025 - Apr 2026 (Expected)
     </li>
     </ul>
     </div>
